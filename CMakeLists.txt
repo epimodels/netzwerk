@@ -27,10 +27,13 @@ include_directories(${SOURCE_DIR})
 # List source files
 set(SOURCES "${SOURCE_DIR}/ops.cc")
 
-# PyBind11
+# pybind11
 add_subdirectory(lib/pybind11)
 
 pybind11_add_module(netzwerk ${SOURCES} "${SOURCE_DIR}/bindings.cc")
+
+# odeint
+add_subdirectory(lib/odeint/include)
 
 # Testing
 enable_testing()
