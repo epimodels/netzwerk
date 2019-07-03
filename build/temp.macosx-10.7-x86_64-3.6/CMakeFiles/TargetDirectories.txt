@@ -1,0 +1,13 @@
+/Users/null/dev/netzwerk/build/temp.macosx-10.7-x86_64-3.6/CMakeFiles/rebuild_cache.dir
+/Users/null/dev/netzwerk/build/temp.macosx-10.7-x86_64-3.6/CMakeFiles/edit_cache.dir
+/Users/null/dev/netzwerk/build/temp.macosx-10.7-x86_64-3.6/CMakeFiles/test.dir
+/Users/null/dev/netzwerk/build/temp.macosx-10.7-x86_64-3.6/CMakeFiles/netzwerk_test.dir
+/Users/null/dev/netzwerk/build/temp.macosx-10.7-x86_64-3.6/CMakeFiles/netzwerk.dir
+/Users/null/dev/netzwerk/build/temp.macosx-10.7-x86_64-3.6/lib/pybind11/CMakeFiles/edit_cache.dir
+/Users/null/dev/netzwerk/build/temp.macosx-10.7-x86_64-3.6/lib/pybind11/CMakeFiles/test.dir
+/Users/null/dev/netzwerk/build/temp.macosx-10.7-x86_64-3.6/lib/pybind11/CMakeFiles/rebuild_cache.dir
+/Users/null/dev/netzwerk/build/temp.macosx-10.7-x86_64-3.6/lib/googletest/CMakeFiles/test.dir
+/Users/null/dev/netzwerk/build/temp.macosx-10.7-x86_64-3.6/lib/googletest/CMakeFiles/rebuild_cache.dir
+/Users/null/dev/netzwerk/build/temp.macosx-10.7-x86_64-3.6/lib/googletest/CMakeFiles/edit_cache.dir
+/Users/null/dev/netzwerk/build/temp.macosx-10.7-x86_64-3.6/lib/googletest/CMakeFiles/gtest_main.dir
+/Users/null/dev/netzwerk/build/temp.macosx-10.7-x86_64-3.6/lib/googletest/CMakeFiles/gtest.dir

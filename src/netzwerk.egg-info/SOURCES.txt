@@ -1,0 +1,8 @@
+setup.py
+src/netzwerk/__init__.py
+src/netzwerk/hello.py
+src/netzwerk.egg-info/PKG-INFO
+src/netzwerk.egg-info/SOURCES.txt
+src/netzwerk.egg-info/dependency_links.txt
+src/netzwerk.egg-info/not-zip-safe
+src/netzwerk.egg-info/top_level.txt
