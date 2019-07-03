@@ -10,7 +10,7 @@ While C++ tests are specified using GoogleTest, Python tests utilize the include
 
 ### Why pybind11?
 
-Wrapping modern C++ code in Python provides high-level high-performance code, a sort of [have-your-cake-and-eat-it](https://en.wikipedia.org/wiki/You_can%27t_have_your_cake_and_eat_it) for programmers concerned with performance.
+Wrapping modern C++ code in Python provides high-level high-performance code, a sort of [have-your-cake-and-eat-it](https://en.wikipedia.org/wiki/You_can%27t_have_your_cake_and_eat_it) for programmers concerned with performance. Languages such as Julia and Numba pursue a similar strategy using the LLVM compiler infrastructure.
 
 ### At what cost?
 Added complexity and code duplication, which pybind11 minimizes compared to other approaches. While CMake is also complex, it greatly simplifies cross-platform support.

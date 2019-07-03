@@ -35,20 +35,12 @@ pybind11_add_module(netzwerk ${SOURCES} "${SOURCE_DIR}/bindings.cc")
 # odeint
 add_subdirectory(lib/odeint/include)
 
-# Testing
+# GoogleTest
 enable_testing()
 
 set(TEST_NAME "${PROJECT_NAME}_test")
 
 set(TEST_DIR "tests")
-
-#set(TEST_SOURCES
-#    "${TEST_DIR}/test_main.cpp"
-#    "${TEST_DIR}/test_math.cpp")
-
-# Generate a test executable
-#include_directories(lib/catch2)
-#add_executable(${TEST_NAME} ${TEST_SOURCES} ${SOURCES})
 
 set(TEST_SOURCES
     "${TEST_DIR}/tests_main.cc"
@@ -67,8 +59,6 @@ add_subdirectory(lib/googletest EXCLUDE_FROM_ALL)
 # later. Otherwise we have to add them here ourselves.
 if (CMAKE_VERSION VERSION_LESS 2.8.11)
   include_directories("${gtest_SOURCE_DIR}/include")
-#else()
-#  include_directories(${gtest_SOURCE_DIR})
 endif()
 
 # Now simply link against gtest or gtest_main as needed. Eg
