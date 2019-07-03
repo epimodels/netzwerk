@@ -6,11 +6,11 @@ CMake provides cross-platform compilation of C++ projects with a variety of comp
 
 `python setup.py test`
 
-While C++ tests are specified using GoogleTest, Python tests utilize the included `unittest` library.
+While C++ tests are specified using GoogleTest, Python tests utilize the included `unittest` library. Additionally, Python code in `setup.py` moves the compiled C++ test binary to the `bin/` folder and automatically runs the C++ tests as well as the Python tests. Separate C++ and Python tests are run to isolate errors.
 
 ### Why pybind11?
 
 Wrapping modern C++ code in Python provides high-level high-performance code, a sort of [have-your-cake-and-eat-it](https://en.wikipedia.org/wiki/You_can%27t_have_your_cake_and_eat_it) for programmers.
 
 ### At what cost?
-Added complexity and code duplication, which pybind11 minimizes compared to other approaches.
+Added complexity and code duplication, which pybind11 minimizes compared to other approaches. While CMake is also complex, it too greatly simplifies cross-platform support.
